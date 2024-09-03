@@ -6,3 +6,5 @@ log("users ");
 users.forEach((user) => {
   log(`name : ${user.name}, age : ${user.age}`);
 });
+
+require("./invoked-function");
