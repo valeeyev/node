@@ -1,3 +1,4 @@
+//os module
 const log = require("../utils");
 const os = require("os");
 const user = os.userInfo();
