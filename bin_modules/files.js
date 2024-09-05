@@ -8,5 +8,6 @@ console.log(first, second);
 
 fileSystem.writeFileSync(
   "./content/result.txt",
-  `here is the result: ${first}, second: ${second}`
+  `here is the result: ${first}, second: ${second}`,
+  { flag: "a" }
 );
